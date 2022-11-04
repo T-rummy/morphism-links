@@ -11,7 +11,7 @@ a {
 .centr {
     display: flex;
     justify-content: center;
-    margin-bottom: -150px;
+    margin-bottom: -200px;
     padding-top: 100px;
 }
 img {
@@ -19,27 +19,25 @@ img {
     height: 150px;
     width: auto;
     border-radius: 100%;
-    background-color: white;
-    border: 15px solid hsla(22, 100%, 77%, 1);
-    box-shadow: 0 0 0 0 transparent;
-        -webkit-transition: all 0.2s ease-in;
-        -moz-transition: all 0.2s ease-in;
-        transition: all 0.2s ease-in;
-        animation: img 3s linear 0s;
+    background-color: transparent;
+    border: 5px solid hsla(286, 68%, 62%, .2);
+    animation: img 4s infinite 0s ease-in-out;
     
     
    
 }
 .background{
     background: cover;
-        background-image:
-            radial-gradient(at 40% 20%, hsla(28, 100%, 74%, 1) 0px, transparent 50%),
-            radial-gradient(at 100% 0%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
-            radial-gradient(at 31% 25%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),
-            radial-gradient(at 73% 27%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),
-            radial-gradient(at 27% 73%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
-            radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%),
-            radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
+            background-color: #99faff;
+                background-image:
+                    radial-gradient(at 58% 65%, hsla(117, 64%, 62%, 1) 0px, transparent 50%),
+                    radial-gradient(at 60% 28%, hsla(353, 64%, 64%, 1) 0px, transparent 50%),
+                    radial-gradient(at 77% 98%, hsla(286, 68%, 62%, 1) 0px, transparent 50%),
+                    radial-gradient(at 92% 5%, hsla(350, 92%, 63%, 1) 0px, transparent 50%),
+                    radial-gradient(at 31% 57%, hsla(53, 80%, 67%, 1) 0px, transparent 50%),
+                    radial-gradient(at 39% 63%, hsla(353, 62%, 71%, 1) 0px, transparent 50%),
+                    radial-gradient(at 99% 51%, hsla(137, 78%, 67%, 1) 0px, transparent 50%),
+                    radial-gradient(at 15% 75%, hsla(231, 63%, 63%, 1) 0px, transparent 50%);
 
 }
 section {
@@ -50,7 +48,7 @@ section {
 }
 
 .container {
-    max-width: 50vw;
+    max-width: 100vw;
         width: 100%;
         display: flex;
         align-items: center;
@@ -58,18 +56,19 @@ section {
         margin: auto;
         background-size: cover;
         background-repeat: no-repeat;
-        background: rgba(149, 100, 100, 0);
+    background: rgba(149, 100, 100, 0);
         border-radius: 16px;
-        box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
-        backdrop-filter: blur(4.8px);
-        -webkit-backdrop-filter: blur(4.8px);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(11px);
+        -webkit-backdrop-filter: blur(11px);
+        border: .3px solid rgba(149, 100, 100, 1);
         flex-direction: column;
         justify-content: space-evenly;
         animation: container 3s linear 0s;
         
 }
 .container:hover {
-    box-shadow: 0 0 30px 5px hsla(242, 100%, 70%, 1);
+    box-shadow: 0 0 30px 5px hsla(350, 92%, 63%, 1);
         -webkit-transition: all 0.2s ease-out;
         -moz-transition: all 0.2s ease-out;
         transition: all 0.2s ease-out;
@@ -77,8 +76,8 @@ section {
 
 button {
     position: relative;
-    width: 50%;
-    height: 25%;
+    width: 75%;
+    height: 15%;
     border-radius: 7px;
     border: .5px solid black;
     font-size: 14px;
@@ -106,7 +105,7 @@ button:hover  {
             radial-gradient(at 27% 73%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
             radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%),
             radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
-    box-shadow: 0 0 30px 5px hsla(242, 100%, 70%, 1);
+    box-shadow: 0 0 30px 5px hsla(350, 92%, 63%, 1);
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -122,7 +121,7 @@ img:hover {
         radial-gradient(at 27% 73%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
         radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%),
         radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
-    box-shadow: 0 0 30px 5px hsla(242, 100%, 70%, 1);
+    box-shadow: 0 0 30px 5px hsla(350, 92%, 63%, 1);
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -192,38 +191,32 @@ button::before {
     }
 }
 
-@keyframes container {
-    0% {
-        box-shadow: 0 0 30px 5px hsla(242, 100%, 70%, 1);
-    }
 
-    100% {
-       box-shadow: none; 
-    }
-
-}
 
 @keyframes img {
     0% {
-        box-shadow: 0 0 30px 5px hsla(242, 100%, 70%, 1);
+        box-shadow: none
     }
 
+    25% {
+         box-shadow: 0 0 200px 5px hsla(242, 100%, 70%, 1);
+    }
+    50% {
+         box-shadow: none;
+    }
+    
+    75% {
+        box-shadow: 0 0 200px 5px hsla(242, 100%, 70%, 1);
+    }
     100% {
         box-shadow: none;
-    }
+        }
+        
+   
 
 }
 
-@keyframes button {
-    0% {
-        box-shadow: 0 0 30px 5px hsla(242, 100%, 70%, 1);
-    }
 
-    100% {
-        box-shadow: none;
-    }
-
-}
 
 
 

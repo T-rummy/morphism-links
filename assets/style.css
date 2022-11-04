@@ -25,6 +25,7 @@ img {
         -webkit-transition: all 0.2s ease-in;
         -moz-transition: all 0.2s ease-in;
         transition: all 0.2s ease-in;
+        animation: img 3s linear 0s;
     
     
    
@@ -64,6 +65,7 @@ section {
         -webkit-backdrop-filter: blur(4.8px);
         flex-direction: column;
         justify-content: space-evenly;
+        animation: container 3s linear 0s;
         
 }
 .container:hover {
@@ -90,6 +92,7 @@ button {
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     transition: all 0.2s ease-in;
+    animation: button 3s linear 0s;
     
 }
 
@@ -187,6 +190,39 @@ button::before {
         opacity: 0;
         left: 100%;
     }
+}
+
+@keyframes container {
+    0% {
+        box-shadow: 0 0 30px 5px hsla(242, 100%, 70%, 1);
+    }
+
+    100% {
+       box-shadow: none; 
+    }
+
+}
+
+@keyframes img {
+    0% {
+        box-shadow: 0 0 30px 5px hsla(242, 100%, 70%, 1);
+    }
+
+    100% {
+        box-shadow: none;
+    }
+
+}
+
+@keyframes button {
+    0% {
+        box-shadow: 0 0 30px 5px hsla(242, 100%, 70%, 1);
+    }
+
+    100% {
+        box-shadow: none;
+    }
+
 }
 
 

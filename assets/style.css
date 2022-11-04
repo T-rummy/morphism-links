@@ -64,7 +64,7 @@ section {
         -webkit-backdrop-filter: blur(4.8px);
         flex-direction: column;
         justify-content: space-evenly;
-        animation: container 6s linear 0s;
+        
 }
 .container:hover {
     box-shadow: 0 0 30px 5px hsla(242, 100%, 70%, 1);
@@ -189,23 +189,7 @@ button::before {
     }
 }
 
-@keyframes container {
-    from {
-        width: 100%;
-        
-    }
 
-    50% {
-        width: 50%;
-        
-    }
-
-    to {
-        width: 100%;
-        
-       
-    }
-}
 
 button:active {
     box-shadow: 0 0 0 0 transparent;

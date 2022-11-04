@@ -16,7 +16,7 @@ a {
 }
 img {
 
-    height: 200px;
+    height: 150px;
     width: auto;
     border-radius: 100%;
     background-color: white;
@@ -31,7 +31,6 @@ img {
 }
 .background{
     background: cover;
-    background-color: hsla(0, 100%, 50%, 1);
         background-image:
             radial-gradient(at 40% 20%, hsla(28, 100%, 74%, 1) 0px, transparent 50%),
             radial-gradient(at 100% 0%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
@@ -50,7 +49,7 @@ section {
 }
 
 .container {
-    max-width: 75vw;
+    max-width: 50vw;
         width: 100%;
         display: flex;
         align-items: center;

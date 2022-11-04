@@ -11,7 +11,7 @@ a {
 .centr {
     display: flex;
     justify-content: center;
-    margin-bottom: -200px;
+    margin-bottom: 10px;
     padding-top: 100px;
 }
 img {
@@ -28,20 +28,19 @@ img {
 }
 .background{
     background: cover;
-            background-color: #99faff;
-                background-image:
-                    radial-gradient(at 58% 65%, hsla(117, 64%, 62%, 1) 0px, transparent 50%),
-                    radial-gradient(at 60% 28%, hsla(353, 64%, 64%, 1) 0px, transparent 50%),
-                    radial-gradient(at 77% 98%, hsla(286, 68%, 62%, 1) 0px, transparent 50%),
-                    radial-gradient(at 92% 5%, hsla(350, 92%, 63%, 1) 0px, transparent 50%),
-                    radial-gradient(at 31% 57%, hsla(53, 80%, 67%, 1) 0px, transparent 50%),
-                    radial-gradient(at 39% 63%, hsla(353, 62%, 71%, 1) 0px, transparent 50%),
-                    radial-gradient(at 99% 51%, hsla(137, 78%, 67%, 1) 0px, transparent 50%),
-                    radial-gradient(at 15% 75%, hsla(231, 63%, 63%, 1) 0px, transparent 50%);
+                    background-color: #99a2ff;
+                        background-image:
+                            radial-gradient(at 6% 71%, hsla(322, 97%, 75%, 1) 0px, transparent 50%),
+                            radial-gradient(at 99% 1%, hsla(171, 65%, 66%, 1) 0px, transparent 50%),
+                            radial-gradient(at 19% 24%, hsla(231, 75%, 64%, 1) 0px, transparent 50%),
+                            radial-gradient(at 36% 62%, hsla(65, 76%, 71%, 1) 0px, transparent 50%),
+                            radial-gradient(at 15% 65%, hsla(217, 86%, 75%, 1) 0px, transparent 50%),
+                            radial-gradient(at 36% 3%, hsla(99, 63%, 62%, 1) 0px, transparent 50%),
+                            radial-gradient(at 94% 93%, hsla(123, 76%, 60%, 1) 0px, transparent 50%),
+                            radial-gradient(at 28% 95%, hsla(312, 94%, 74%, 1) 0px, transparent 50%);
 
 }
 section {
-    height: 100vh;
     display: flex;
         align-items: center;
         justify-content: center;
@@ -98,13 +97,14 @@ button {
 button:hover  {
     background-color: transparent;
         background-image:
-            radial-gradient(at 40% 20%, hsla(28, 100%, 74%, 1) 0px, transparent 50%),
-            radial-gradient(at 100% 0%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
-            radial-gradient(at 31% 25%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),
-            radial-gradient(at 73% 27%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),
-            radial-gradient(at 27% 73%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
-            radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%),
-            radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
+            radial-gradient(at 6% 71%, hsla(322, 97%, 75%, 1) 0px, transparent 50%),
+                radial-gradient(at 99% 1%, hsla(171, 65%, 66%, 1) 0px, transparent 50%),
+                radial-gradient(at 19% 24%, hsla(231, 75%, 64%, 1) 0px, transparent 50%),
+                radial-gradient(at 36% 62%, hsla(65, 76%, 71%, 1) 0px, transparent 50%),
+                radial-gradient(at 15% 65%, hsla(217, 86%, 75%, 1) 0px, transparent 50%),
+                radial-gradient(at 36% 3%, hsla(99, 63%, 62%, 1) 0px, transparent 50%),
+                radial-gradient(at 94% 93%, hsla(123, 76%, 60%, 1) 0px, transparent 50%),
+                radial-gradient(at 28% 95%, hsla(312, 94%, 74%, 1) 0px, transparent 50%);
     box-shadow: 0 0 30px 5px hsla(350, 92%, 63%, 1);
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
@@ -199,14 +199,14 @@ button::before {
     }
 
     25% {
-         box-shadow: 0 0 200px 5px hsla(242, 100%, 70%, 1);
+         box-shadow: 0 0 200px 100px hsla(350, 92%, 63%, 1);
     }
     50% {
          box-shadow: none;
     }
     
     75% {
-        box-shadow: 0 0 200px 5px hsla(242, 100%, 70%, 1);
+        box-shadow: 0 0 200px 100px hsla(350, 92%, 63%, 1);
     }
     100% {
         box-shadow: none;
